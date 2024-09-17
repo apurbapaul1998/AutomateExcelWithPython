@@ -32,3 +32,21 @@ pip install pandas openpyxl
 
 ###Step 1: Pivot Table Creation
 - Run the pivot_table.py script to create a pivot table from the supermarket sales data. This script reads a CSV file and generates a new Excel file (Pivot_table.xlsx) with a pivot table summarizing total sales by gender and product line.
+
+
+###Step 2: Report Generation and Automation
+-After creating the pivot table, run the pivot_to_report.py script to generate a bar chart, add totals, and format the final report.
+
+- This script prompts you to specify the month for the report and generates the final report (Report_<Month>.xlsx) automatically.
+
+###Steps Summary:
+- Download the sales data from Kaggle and place it in your project folder.
+- Run the pivot_table.py script to create a pivot table in Excel.
+- Run the pivot_to_report.py script to automate the report generation and create the final report with charts and totals.
+- Optionally, pass the month as a command-line argument when running the report script to customize the report.
+- Example Output
+- An example of the output includes:
+
+- Pivot Table: A detailed summary of total sales by gender and product line.
+- Bar Chart: A visual representation of sales by product line.
+- Formatted Report: A complete, formatted sales report with totals and chart, saved as Report_<Month>.xlsx.
