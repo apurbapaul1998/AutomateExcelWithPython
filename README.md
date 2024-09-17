@@ -25,7 +25,7 @@ Ensure that you have Python installed on your system. The project also requires 
 ###You can install the necessary libraries using the following command:
 
 ```bash
-pip install pandas openpyxl
+pip install pandas openpyxl ```
 
 
 ##How to Run the Project
